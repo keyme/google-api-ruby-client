@@ -1331,6 +1331,11 @@ module Google
         # @return [Google::Apis::MybusinessV3::Duplicate]
         attr_accessor :duplicate
       
+        # Map URL for the location.
+        # Corresponds to the JSON property `mapsUrl`
+        # @return [String]
+        attr_accessor :maps_url
+      
         def initialize(**args)
            update!(**args)
         end
